@@ -1,0 +1,50 @@
+.vLeft{
+	flex: 1;
+}
+.vRight{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	flex: 1;
+}
+
+.accordion{
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	border: none !important; 
+}
+
+.accordionItem{
+	background: white;
+	border: 0.8px solid rgba(128,128,128,.143);
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+
+.accordionButton{
+	background: white;
+	padding: 1rem;
+	width: 100%;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.accordionButton .primaryText {
+	font-size: 1.1rem;
+}	
+
+.icon {
+  padding: 10px;
+  background: #eeeeff;
+  border-radius: 5px;
+}
+.icon svg {
+  fill: var(--blue);
+}
