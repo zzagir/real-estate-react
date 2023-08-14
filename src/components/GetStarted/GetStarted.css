@@ -1,0 +1,37 @@
+.getStarted .container div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: var(--blue-gradient);
+	border-radius: 15px;
+	border: 6px solid #5d77d6;;
+	gap: 1.5rem;
+	padding: 2rem;
+}
+
+.getStarted .container h2{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+}
+.getStarted .container p{
+	text-align: center;
+	color: #ffffff96;
+}
+
+.getStarted .container button{
+	cursor: pointer;
+	border: 2px solid #fff;
+	border-radius: 10px;
+	padding: 0.5rem 1rem;
+	background:#5a73d7;
+	color: white;
+	font-size: 16px;
+	transition: all .3s ease-in;
+}
+
+.getStarted .container button:hover{
+	transform: scale(1.1);
+}
