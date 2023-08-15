@@ -46,21 +46,21 @@ const Hero = () => {
 					>
 						<div className="count">
 							<span>
-								<CountUp start={8800} end={9000} duration={4} />
+								<CountUp start={8000} end={9000} duration={2} delay={2} />
 								<span>+</span>
 							</span>
 							<span>Premium Product</span>
 						</div>
 						<div className="count">
 							<span>
-								<CountUp start={1800} end={2000} duration={4} />
+								<CountUp start={1500} end={2000} duration={2} delay={2} />
 								<span>+</span>
 							</span>
 							<span>Happy Customer</span>
 						</div>
 						<div className="count">
 							<span>
-								<CountUp start={10} end={28} duration={4} />
+								<CountUp start={1} end={28} duration={3} delay={2} />
 								<span>+</span>
 							</span>
 							<span>Awards Winning</span>
