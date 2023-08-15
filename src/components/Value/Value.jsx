@@ -8,9 +8,9 @@ import {
 	AccordionItemPanel,
 	AccordionItemState,
 } from 'react-accessible-accordion'
+import 'react-accessible-accordion/dist/fancy-example.css'
 import { MdOutlineArrowDropDown } from 'react-icons/md'
 import data from '../../utils/accordion'
-import 'react-accessible-accordion/dist/fancy-example.css'
 
 const Value = () => {
 	return (
@@ -34,7 +34,7 @@ const Value = () => {
 						preExpanded={[0]}
 					>
 						{data.map((item, i) => {
-							const [className, setClassName] = useState('')
+							const [className, setClassName] = useState(null)
 							return (
 								<AccordionItem
 									className={`accordionItem ${className}`}

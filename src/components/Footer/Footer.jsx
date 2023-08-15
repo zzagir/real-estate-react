@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = () => {
 	return (
 		<div className="footer">
-			<div className="container paddings">
+			<div className="container">
 				<div className="fLeft">
 					<img src="./logo2.png" alt="" width={120} />
 					<span className="secondaryText">

@@ -76,3 +76,32 @@
 	color: #fff;
 	transform: scale(0.9);
 }
+
+.tbIcon path:last-child {
+	fill: var(--blue);
+}
+
+@media screen and (max-width: 1160px){
+	.contact .container{
+		flex-direction: column;
+	}
+	.cContacts{
+		width: 100%;
+	}
+
+	.cItem {
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px){
+	.cText .orangeText {
+			font-size: 1.2rem;
+	}
+	.cText .primaryText {
+    font-size: 1.5rem;
+	}
+	.cRight .imageContainer{
+		border-radius: 1rem 1rem 0 0;
+	}
+}

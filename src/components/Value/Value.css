@@ -1,5 +1,12 @@
+.value .container{
+	gap: 1rem;
+}
+
 .vLeft{
 	flex: 1;
+}
+.vLeft .imageContainer{
+	border: 8px solid rgb(232 232 232 / 93%);
 }
 .vRight{
 	display: flex;
@@ -47,4 +54,40 @@
 }
 .icon svg {
   fill: var(--blue);
+}
+
+@media screen and (max-width: 1034px){
+	.value .container{
+		flex-direction: column;
+	}
+
+	.accordion{
+		margin: 2rem 0 0 0;
+	}
+	
+	.vRight{
+		padding: 1rem 0 0 0;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.value .container {
+		padding: 4rem;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.value .container {
+		padding: 1.5rem;
+	}
+	.vLeft .imageContainer{
+		max-width: 300px;
+	}
+}
+
+@media screen and (max-width: 470px){
+	.accordionButton{
+	flex-direction: column;
+	row-gap: 1rem;
+}
 }

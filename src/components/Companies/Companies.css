@@ -2,5 +2,12 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	gap: 1rem;
+}
 
+@media screen and (max-width: 720px){
+	.companies .container{
+		flex-direction: column;
+		gap: 2rem;
+	}
 }

@@ -32,3 +32,23 @@
 .fMenu a:hover{
 	color: var(--blue);
 }
+
+@media screen and (max-width: 768px){
+	.footer .container {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		gap: 2rem;
+	}
+	.fLeft{
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 440px){
+	.fMenu {
+		flex-direction: column;
+	}
+}

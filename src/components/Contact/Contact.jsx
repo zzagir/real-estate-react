@@ -1,6 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import { IoMdCall } from 'react-icons/io'
+import { TbMessageCircle2Filled } from 'react-icons/tb'
+import { BsFillChatDotsFill } from 'react-icons/bs'
+import { BsFillCameraVideoFill } from 'react-icons/bs'
 
 const Contact = () => {
 	return (
@@ -31,10 +34,10 @@ const Contact = () => {
 						<div className="cItem flexColCenter">
 							<div className="flexStart">
 								<div className="flexCenter icon">
-									<IoMdCall size={25} />
+									<BsFillChatDotsFill size={25} />
 								</div>
 								<div>
-									<span className="primaryText">Call</span>
+									<span className="primaryText">Chat</span>
 									<p className="secondaryText">021 123 543 43</p>
 								</div>
 							</div>
@@ -43,10 +46,10 @@ const Contact = () => {
 						<div className="cItem flexColCenter">
 							<div className="flexStart">
 								<div className="flexCenter icon">
-									<IoMdCall size={25} />
+									<BsFillCameraVideoFill size={25} />
 								</div>
 								<div>
-									<span className="primaryText">Call</span>
+									<span className="primaryText">Video Call</span>
 									<p className="secondaryText">021 123 543 43</p>
 								</div>
 							</div>
@@ -55,10 +58,10 @@ const Contact = () => {
 						<div className="cItem flexColCenter">
 							<div className="flexStart">
 								<div className="flexCenter icon">
-									<IoMdCall size={25} />
+									<TbMessageCircle2Filled size={25} className="tbIcon" />
 								</div>
 								<div>
-									<span className="primaryText">Call</span>
+									<span className="primaryText">Message</span>
 									<p className="secondaryText">021 123 543 43</p>
 								</div>
 							</div>

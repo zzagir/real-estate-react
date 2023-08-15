@@ -23,21 +23,6 @@ a {
   text-decoration: none;
 }
 
-.App>:nth-child(1)
-{
-  background: var(--black);
-  position: relative;
-}
-
-.white-gradient {
-  position: absolute;
-  width: 20rem;
-  height: 20rem;
-  background: rgba(255,255,255,.522);
-  filter: blur(100px);
-  border-radius: 100px;
-}
-
 .paddings {
   padding: 1.5rem;
 }
@@ -140,5 +125,11 @@ a {
   }
   .orangeText {
     font-size: 1.2rem;
+  }
+  .imageContainer{
+    width: 90%;
+    height: 90%;
+    border: none;
+    margin: auto;
   }
 }

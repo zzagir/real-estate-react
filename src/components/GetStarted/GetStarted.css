@@ -35,3 +35,17 @@
 .getStarted .container button:hover{
 	transform: scale(1.1);
 }
+
+@media screen and (max-width: 640px){
+	.getStarted .container{
+		padding: 3rem;
+	}
+	.getStarted .container h2 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.getStarted .container p {
+		font-size: .9rem;
+		text-align: center;
+	}
+}
